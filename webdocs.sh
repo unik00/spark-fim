@@ -1,0 +1,1 @@
+rm -rf test_output && spark-submit --master local[*] --class net.mkowalski.sparkfim.driver.DistEclatDriver --deploy-mode client target/scala-2.11/spark-fim_2.11-1.0.jar  --inputFile /home/huynd107/Documents/bigminer-spark/test_datas/webdocs/webdocs.dat --minSup 120000 --firstStageDepth 3 --outputDir test_output --cacheRemovePolicy auto
