@@ -10,6 +10,13 @@ Currently the following algorithms are available:
 
 ### Building project
 
+Requirements 
+```
+spark 2.4.0
+scala 2.11.12
+openjdk 1.8.0
+```
+
 Since the project uses [sbt](http://www.scala-sbt.org/) as a build tool, to prepare _.jar_ package run:
 
     sbt package
